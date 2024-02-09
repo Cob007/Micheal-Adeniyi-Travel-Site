@@ -1,0 +1,45 @@
+.container {
+    font-family: 'Verdana';
+}
+
+.container__nav-bar {
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-bar__appname {
+    width: 20vw;
+    color: #335576;
+    margin: 20px;
+}
+
+.nav-bar__list {
+    display: flex;
+    width: 80vw;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.nav-bar__item {
+    display: inline;
+    margin: 20px;
+}
+
+.nav-bar__pagename {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.nav-bar__pagename--selected {
+    padding-bottom: 16px;
+    border-bottom: 3px solid #DB7A4E;
+    
+}
