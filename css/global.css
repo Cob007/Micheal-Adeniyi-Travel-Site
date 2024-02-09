@@ -1,0 +1,120 @@
+.container {
+    font-family: 'Verdana';
+}
+
+.container__nav-bar {
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar__appname {
+    color: #335576;
+    font-size: 1.4rem;
+    margin-left: 100px;
+}
+
+.nav-bar__list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.nav-bar__item {
+    display: inline;
+    margin: 20px;
+}
+
+.nav-bar__pagename {
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.nav-bar__pagename--selected {
+    padding-bottom: 16px;
+    border-bottom: 3px solid #DB7A4E;
+
+}
+
+.footer-section {
+    display: flex;
+    background-color: #FEFAF5;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px 0px 40px 0px; 
+}
+
+.footer-section__contact, .footer-section__hours  {
+    margin-right: 150px;
+}
+
+.footer-section__contact--title {
+    color: #335576;
+    font-size: 1.6rem;
+}
+
+.footer-section__contact--email {
+    color: #DB7A4E;
+    font-size: 0.7rem;
+    margin-top: 30px;
+}
+
+.footer-section__contact--subtitle {
+    color: #335576;
+    font-size: 1.0rem;
+}
+
+
+.footer-section__hours--title, .footer-section__social--title {
+    color: #335576;
+    font-size: 1.6rem;
+}
+
+.footer-section__hours--details {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.footer-section__hours--details--item{
+    margin-right: 40px;
+}
+
+.footer-section__hours--details--item--name {
+    color: #DB7A4E;
+    font-size: 0.7rem;
+    margin: 0px;
+}
+
+.footer-section__hours--details--item--subtitle {
+    color: #335576;
+    font-size: 1.0rem;
+}
+
+.footer-section__social--icons {
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-section__social--icons {
+    margin-top: 40px;
+}
+.footer-section__social--icons--item {
+    width: 30px;
+}
+
+.footer-section__social--icons--item-facebook {
+    width: 15px;
+}
