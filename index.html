@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,9 @@
     <link href="./css/global.css" rel="stylesheet" />
     <link href="./css/landing.css" rel="stylesheet" />
 </head>
+
 <body class="container">
-    <header class="container__nav-bar" >
+    <header class="container__nav-bar">
         <nav class="nav-bar">
             <h2 class="nav-bar__appname">
                 Travel Site
@@ -30,53 +32,74 @@
         </nav>
     </header>
     <main>
-        <div>
-            <img alt="travel"/>
-            <h1>Travelling  Comes With Endless Discoveries</h1>
-            <p>Don’t let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
-            <button>Get Started</button>
+
+        <div class="container-hero-section">
+            <div class="container-hero-section__banner-description">
+                <h1 class="container-hero-section__banner-description--title">Travelling Comes With<br>Endless
+                    Discoveries</h1>
+                <p class="container-hero-section__banner-description--subtitle">Don’t let your dreams be just dreams.
+                    Experience the world by booking a<br>vacation with us now.</p>
+                <a href="#" class="container-hero-section__banner-description--btn">
+                    <span class="container-hero-section__banner-description--btn--btn-get-started">Get Started</span>
+                </a>
+
+            </div>
+            <img class="container-hero-section__banner-img" src="./assets/images/hero.png" alt="travel" />
         </div>
-        <div>
-            <h2>Recommendation</h2>
-            <div>
-                <div>Hawaii</div>
-                <div>Iceland</div>
-                <div>Greece</div>
+        <div class="container-recommendation">
+            <h2 class="container-recommendation__title">Recommendations</h2>
+            <div class="container-recommendation__cards">
+                <div class="container-recommendation__cards--destination">
+                    <img class="container-recommendation__cards--destination--images"
+                        src="./assets/images/hawaii.jpg" />
+                    <span class="container-recommendation__cards--destination--name">Hawaii</span>
+                </div>
+                <div class="container-recommendation__cards--destination">
+                    <img class="container-recommendation__cards--destination--images"
+                        src="./assets/images/iceland.jpg" />
+                    <span class="container-recommendation__cards--destination--name">Iceland</span>
+                </div>
+                <div class="container-recommendation__cards--destination">
+                    <img class="container-recommendation__cards--destination--images"
+                        src="./assets/images/greece.jpg" />
+                    <span class="container-recommendation__cards--destination--name">Greece</span>
+                </div>
             </div>
         </div>
     </main>
-    <footer>
-        <div>
-            <h2>Contact</h2>
-            <p>Email</p>
-            <p>info@travelsite.com</p>
+    <footer class="footer-section">
+        <div class="footer-section__contact">
+            <h2 class="footer-section__contact--title">Contact</h2>
+            <p class="footer-section__contact--email">EMAIL</p>
+            <p class="footer-section__contact--subtitle">info@travelsite.com</p>
         </div>
-        <div>
-            <h2>Hours</h2>
-            <div>
-                <section>
-                    <p>MONDAY - FRIDAY</p>
-                    <p>9:00 AM - 5:00 PM</p>
+        <div class="footer-section__hours">
+            <h2 class="footer-section__hours--title">Hours</h2>
+            <div class="footer-section__hours--details">
+                <section  class="footer-section__hours--details--item">
+                    <p class="footer-section__hours--details--item--name" >MONDAY - FRIDAY</p>
+                    <p class="footer-section__hours--details--item--subtitle">9:00 AM - 5:00 PM</p>
                 </section>
-                <section>
-                    <p>SATURDAY</p>
-                    <p>10:00 AM - 4:00 PM</p>
+                <section class="footer-section__hours--details--item">
+                    <p class="footer-section__hours--details--item--name">SATURDAY</p>
+                    <p class="footer-section__hours--details--item--subtitle">10:00 AM - 4:00 PM</p>
                 </section>
-                <section>
-                    <p>SUNDAY</p>
-                    <p>Closed</p>
+                <section class="footer-section__hours--details--item">
+                    <p class="footer-section__hours--details--item--name">SUNDAY</p>
+                    <p class="footer-section__hours--details--item--subtitle">Closed</p>
                 </section>
             </div>
         </div>
-        <div>
-            <h2>Contact</h2>
-            <div>
-                <img href="./assets/logos/icon-instagram.png" alt="instagram"/>
-                <img href="./assets/logos/icon-facebook.png" alt="facebook"/>
-                <img href="./assets/logos/icon-twitter.png" alt="twitter"/>
+        <div class="footer-section__social">
+            <h2 class="footer-section__social--title">Contact</h2>
+            <div class="footer-section__social--icons">
+                <img class="footer-section__social--icons--item" src="./assets/logos/icon-instagram.png" alt="instagram" />
+                <img class="footer-section__social--icons--item-facebook" src="./assets/logos/icon-facebook.png" alt="facebook" />
+                <img class="footer-section__social--icons--item" src="./assets/logos/icon-twitter.png" alt="twitter" />
             </div>
         </div>
 
     </footer>
 </body>
+
 </html>
