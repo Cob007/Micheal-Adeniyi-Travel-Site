@@ -4,27 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Travel Site</title>
+    <link href="../css/global.css" rel="stylesheet"/>
+    <link href="../css/destinations.css" rel="stylesheet"/>
 </head>
 
-<body>
-    <header>
-        <nav>
-            <h2>
+<body class="container">
+    <header class="container__nav-bar">
+        <nav class="nav-bar">
+            <h2 class="nav-bar__appname">
                 Travel Site
             </h2>
-            <ul>
-                <li>
-                    <a href="#">Home</a>
+            <ul class="nav-bar__list">
+                <li class="nav-bar__item">
+                    <a class="nav-bar__pagename" 
+                    href="../index.html">Home</a>
                 </li>
-                <li>
-                    <a href="#">Hawaii</a>
+                <li class="nav-bar__item">
+                    <a class="nav-bar__pagename"
+                     href="hawaii.html">Hawaii</a>
                 </li>
-                <li>
-                    <a href="#">Iceland</a>
+                <li class="nav-bar__item"> 
+                    <a class="nav-bar__pagename nav-bar__pagename--selected" href="iceland.html">Iceland</a>
                 </li>
-                <li>
-                    <a href="#">Greece</a>
+                <li class="nav-bar__item">
+                    <a class="nav-bar__pagename" href="greece.html">Greece</a>
                 </li>
             </ul>
         </nav>
@@ -100,37 +104,46 @@
             </div>
         </div>
     </main>
-    <footer>
-        <div>
-            <h2>Contact</h2>
-            <p>Email</p>
-            <p>info@travelsite.com</p>
+    <footer class="footer-section">
+        <div class="footer-section__contact">
+            <h2 class="footer-section__contact--title">Contact</h2>
+            <p class="footer-section__contact--email">EMAIL</p>
+            <p class="footer-section__contact--subtitle">info@travelsite.com</p>
         </div>
-        <div>
-            <h2>Hours</h2>
-            <div>
-                <section>
-                    <p>MONDAY - FRIDAY</p>
-                    <p>9:00 AM - 5:00 PM</p>
+        <div class="footer-section__hours">
+            <h2 class="footer-section__hours--title">Hours</h2>
+            <div class="footer-section__hours--details">
+                <section class="footer-section__hours--details--item">
+                    <p class="footer-section__hours--details--item--name">MONDAY - FRIDAY</p>
+                    <p class="footer-section__hours--details--item--subtitle">9:00 AM - 5:00 PM</p>
                 </section>
-                <section>
-                    <p>SATURDAY</p>
-                    <p>10:00 AM - 4:00 PM</p>
+                <section class="footer-section__hours--details--item">
+                    <p class="footer-section__hours--details--item--name">SATURDAY</p>
+                    <p class="footer-section__hours--details--item--subtitle">10:00 AM - 4:00 PM</p>
                 </section>
-                <section>
-                    <p>SUNDAY</p>
-                    <p>Closed</p>
+                <section class="footer-section__hours--details--item">
+                    <p class="footer-section__hours--details--item--name">SUNDAY</p>
+                    <p class="footer-section__hours--details--item--subtitle">Closed</p>
                 </section>
             </div>
         </div>
-        <div>
-            <h2>Contact</h2>
-            <div>
-                <img href="./assets/logos/icon-instagram.png" alt="instagram"/>
-                <img href="./assets/logos/icon-facebook.png" alt="facebook"/>
-                <img href="./assets/logos/icon-twitter.png" alt="twitter"/>
+        <div class="footer-section__social">
+            <h2 class="footer-section__social--title">Social</h2>
+            <div class="footer-section__social--icons">
+                <a href="http://instagram.com/"> <img class="footer-section__social--icons--item"
+                        src="../assets/logos/icon-instagram.png" alt="instagram" />
+                </a>
+                <a href="http://facebook.com/">
+                    <img class="footer-section__social--icons--item-facebook" src="../assets/logos/icon-facebook.png"
+                        alt="facebook" />
+                </a>
+                <a href="http://twitter.com/">
+                    <img class="footer-section__social--icons--item" src="../assets/logos/icon-twitter.png"
+                        alt="twitter" />
+                </a>
             </div>
         </div>
+
     </footer>
 
 </body>
